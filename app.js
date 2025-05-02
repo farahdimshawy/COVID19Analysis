@@ -8,8 +8,8 @@ const url = "https://public.tableau.com/views/COVID_17461991248990/COVID-19GLOBA
 const vizContainer = document.getElementById('vizContainer');
 const options = {
     hideTabs: true,
-    height: auto,
-    width: auto,
+    height: 60000,
+    width: 60000,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
